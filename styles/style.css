@@ -1,0 +1,138 @@
+body{
+	background: white;
+	font-size: 10px;
+}
+
+.color-rosa{
+	color: pink;
+}
+
+#titulo{
+	color:grenn;
+}
+
+h3, p{
+	font-family: 'Roboto Mono', monospace;
+}
+
+article h3.titulo{
+	color: green;
+}
+
+
+.titulo{
+	font-size: 24px;
+	font-style: italic;
+	color: #F4FF00;
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-family: 'Roboto Mono', monospace;
+	font-weight:900;
+}
+
+.cuadrado{
+	height: 200px;
+	width: 200px;
+	background: blue;
+	border-top: 4px solid red;
+	border-left: 10px dotted yellow;
+	border-bottom:3px double pink;
+	border-right:4px dashed orange;
+
+}
+
+.boton{
+	background:red;
+	color:white;
+	font-size: 50px;
+	text-decoration:none;
+}
+
+.boton:hover{
+	background:blue;
+	color:yellow;
+}
+
+.elementos{
+	color:red;
+	font-size: 18px;
+}
+
+.elementos li:first-child{
+	color:blue;
+}
+
+.elementos li:last-child{
+	color: green;
+}
+
+.elementos li:nth-child(2){
+	color:pink;
+}
+
+.elementos li:nth-child(odd){
+	background:gray;
+}
+
+
+.circulo1{
+	height: 200px;
+	width: 200px;
+	background:green;
+	border-radius: 50%;
+	box-shadow:10px 10px 5px rgba(0,0,0,5);
+	border:2px solid red;
+}
+
+.circulo{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	box-shadow:10px 10px 5px rgba(0,0,0,5);
+	border:2px solid yellow;
+}
+
+.circulo2{
+	background:red;
+}
+
+.circulo3{
+	background:blue;
+}
+
+.parrafo1{
+	line-height: 20px;
+    letter-spacing: 3px;
+}
+
+
+
+
+
+
+.ion-social-instagram{
+	font-size: 50px;
+	color: #125688;
+}
+
+.ion-social-linkedin{
+	font-size: 50px;
+	color:#007bb5;
+}
+
+.ion-social-twitter{
+	font-size: 50px;
+	color: #55acee;
+}
+
+.ion-social-facebook{
+	font-size: 50px;
+	color: #3b5998;
+}
+
+.redes{
+	list-style: none;
+}
+
+
+/*asi se ponen comentarios en css*/
